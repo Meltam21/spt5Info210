@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <style>
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: left;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      caption {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Sanrio Characters
+      </caption>
+      <tr>
+        <th>Photo</th>
+        <th>Date</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/Hello Kitty.png" alt="hellokitty" width="150" />
+        </td>
+        <td>02-03-25</td>
+        <td>Hello Kitty PNG</td>
+      </tr>
+      <tr>
+        <td><img src="images/pochacco .jpeg" alt="pochacco" width="150" /></td>
+        <td>05-12-25</td>
+        <td>Pochacco JPG</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/my melody.jpeg" alt="mymelody" width="150" />
+        </td>
+        <td>04-21-25</td>
+        <td>My Melody JPG</td>
+      </tr>
+      <tr>
+        <td colspan="3">&copy;Melody Tam. All rights reserved.</td>
+      </tr>
+    </table>
+  </body>
+</html>
