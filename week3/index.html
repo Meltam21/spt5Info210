@@ -18,14 +18,19 @@
     </nav>
 
     <h1>Containers and Forms</h1>
-    <form action="index.html" method="get">
+    <form
+      action="https://wp.zybooks.com/form-viewer.php"
+      method="get"
+      method="post"
+      enctype="multipart/form-data"
+    >
       <div>
-        <label for="favoriteSnacks">Favorite Snack:</label>
+        <label for="fullName">Full Name:</label>
         <input
           type="text"
-          name="favoriteSnacks"
-          id="favoriteSnacks"
-          placeholder="chips"
+          name="fullName"
+          id="fullName"
+          placeholder="johndoe"
           required
         />
       </div>
@@ -46,6 +51,10 @@
       <div>
         <label for="snackColorMood">Snack Color Mood</label>
         <input type="color" name="snackColorMood" id="snackColorMood" />
+      </div>
+      <div>
+        <label for=""></label>
+        <input type="file" accept="" />
       </div>
       <input type="submit" value="Submit Snacks" />
     </form>

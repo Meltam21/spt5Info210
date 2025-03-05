@@ -18,5 +18,54 @@
     </nav>
 
     <h1>More Forms</h1>
+    <form action="moreforms.html" method="get"></form>
+    <input
+      type="checkbox"
+      name="soulContract"
+      id="soulContract"
+      checked
+      disabled
+      value="signed"
+    />
+    <label for="soulContract">Sign Your Soul</label>
+    <div>
+      <input type="radio" name="lengthContract" id="lengthContract" />
+      <label for="lenthContract2"></label>
+    </div>
+
+    <div>
+      <input
+        type="radio"
+        name="lengthContract"
+        name="lengthContract"
+        id="lengthContract"
+        value="1"
+      />
+    </div>
+
+    <fieldset>
+      <legend>Personal Info</legend>
+      <div>
+        <label for="fullname">Full Name</label>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          required
+          list="commonNames"
+        />
+
+        <datalist>
+          <option value="Jessica">Scappy</option>
+          <option value="John">Meowth</option>
+          <option value="Jane">Human</option>
+        </datalist>
+      </div>
+    </fieldset>
+
+    <select name="title" id="title"></select>
+    <option value="Janitor"></option>
+    <option value="Teacher"></option>
+    <option value="Student"></option>
   </body>
 </html>
