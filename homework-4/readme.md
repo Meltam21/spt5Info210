@@ -1,4 +1,4 @@
-# The Food Quest ❄️✨
+# The Food Quest
 
 ## Idea Summary
 
@@ -14,3 +14,4 @@ Added \*user interactions (buttons, prompts, and confirm dialogs)\*\* for engage
 ## Live Link
 
 [The Food Quest]
+https://github.com/Meltam21/spt5Info210/blob/main/homework-4/index.html
