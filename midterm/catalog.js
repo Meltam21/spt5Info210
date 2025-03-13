@@ -4,7 +4,7 @@ const products = [
     { name: "NapSack", img: "midterm/images/Midterm/napsack.webp" },
     { name: "Hot Tub Wildlife Feeder", img: "midterm/images/Midterm/hot tub.webp" },
     { name: "Toilet Meadow", img: "midterm/images/Midterm/toilet meadow.webp" },
-    { name: "Pudding Pouch", img: "midterm/images/Midterm/pudding pouch.webp" }
+    { name: "Pudding Pouch", img: "" }
 ];
 
 const productList = document.getElementById("product-list");
